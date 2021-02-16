@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人注册-品优购</title>
+
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- 引入初始化样式文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入register.css文件 -->
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div class="w">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+        </header>
+        <div class="registerarea">
+            <h3>
+                注册新用户
+                <div class="login">已有账号，去<a href="#">登录</a></div>
+            </h3>
+            <div class="reg_form">
+                <form action="">
+                    <ul>
+                        <li>
+                            <label for="phone">手机号：</label>
+                            <input type="text" name="phone">
+                            <span class="error"><i class="error_icon"></i>手机号码格式不正确，请重新输入</span>
+                        </li>
+                        <li>
+                            <label for="message">短信验证码：</label>
+                            <input type="text" id="message">
+                            <span class="success"><i class="success_icon"></i>短信验证码输入正确</span>
+                        </li>
+                        <li>
+                            <label for="key">登录密码：</label>
+                            <input type="password" id="key">
+                            <span class="error"><i class="error_icon"></i>手机号码格式不正确，请重新输入</span>
+                        </li>
+                        <li class="safe">安全程度：<em class="low">弱</em> <em class="medium">中</em> <em class="high">强</em>
+                        </li>
+                        <li>
+                            <label for="again">确认密码：</label>
+                            <input type="password" id="again">
+                            <span class="error"><i class="error_icon"></i>手机号码格式不正确，请重新输入</span>
+                        </li>
+                        <li class="agreed"><input type="checkbox">
+                            同意协议并注册<a href="#">《品优购用户协议》</a></li>
+                        <li>
+                            <input type="submit" class="btn" value="完成注册">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">关于我们</a> |
+                    <a href="#">联系我们</a> |
+                    <a href="#">联系客服</a> |
+                    <a href="#">商家入驻</a> |
+                    <a href="#">营销中心</a> |
+                    <a href="#">手机品优购</a> |
+                    <a href="#">友情链接</a> |
+                    <a href="#">销售联盟</a> |
+                    <a href="#">品优购社区</a> |
+                    <a href="#">品优购公益</a> |
+                    <a href="#">English Site</a> |
+                    <a href="#">Contact U</a>
+                </div>
+                <div class="copyright">
+                    地址：山西•大同 &nbsp; 电话：13028088336 &nbsp; QQ：2787188528 &nbsp; 邮箱: jayden2787188528@outlook.com <br>
+                    京ICP备080014*1号 京公网安备1101****7702
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
