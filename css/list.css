@@ -1,0 +1,54 @@
+.nav {
+    overflow: hidden;
+}
+.seckill {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 2px solid #c81523;
+    padding: 2px 0 0 14px;
+}
+.seckill_list {
+    float: left;
+}
+.seckill_list ul li {
+    float: left;
+}
+.seckill_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.seckill_con {
+    float: left;
+}
+.seckill_con ul li {
+    float: left;
+}
+.seckill_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.seckill_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.seckill_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 12px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent; /* This is very important! */
+}
+.seckill_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.seckill_bd ul li:hover {
+    border: 1px solid #c81523;
+}
